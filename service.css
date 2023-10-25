@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Foldit', cursive;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:tan;
+}
+.navgation2 .nav-items2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navgation2 .nav-items2 li{
+    list-style: none;
+    margin-left: 30px;
+}
+.navgation2 .nav-items2 li a{
+  text-decoration: none;
+  color: black;
+}
+.navgation2 .nav-items2 li a:hover{
+    color: red;
+}
+
+
+.nav-items2  li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+.nav-items2  li:hover::after{
+    width: 100%;
+} 
+
+.ser1{
+padding: 50px;
+text-align: center;
+background-color: black;
+color: wheat;
+margin-top: 50px;
+padding-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container .container-1{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+     justify-content: space-around;
+     align-items: center;
+}
+@media screen and (max-width:780px) {
+    .container .container-1{
+        flex-direction: column;
+    } 
+    .container .container-1 .list-1{
+        width: 90%;
+        min-width: 100%;
+    }
+    .img{
+       min-width: 100%;
+    }
+}
+.container .container-1 .list-1{
+    width: 50%;
+}
+
+.img{
+    height: 100vh;
+    background-image: url(templeimg1.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.one1{
+
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(162, 182, 175);
+    padding: 5px 15px;
+
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.img{
+    height: 100vh;
+    background-image: url(templeimg1.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container2{
+    background-color:dimgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container2 .container-2{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+     justify-content: space-around;
+     align-items: center;
+}
+@media screen and (max-width:780px) {
+    .container2 .container-2{
+        flex-direction: column;
+    } 
+    .container2 .container-2 .list-2{
+        width: 90%;
+        min-width: 100%;
+    }
+    .img{
+       min-width: 100%;
+       
+    }
+}
+.container2 .container-2 .list-2{
+    width: 50%;
+}
+.text
+{
+
+    text-align: center;
+}
+.ads{
+    display: flex;
+    justify-content: space-between;
+    /* height: 80vh; */
+    padding-top: 80px;
+}
+.ads1{
+    margin-left: 20px;
+    text-align: center;
+
+}
+.ads1 h3{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.ads4{
+    margin-right: 22px;
+}
+@media screen and (max-width:600px) {
+    .ads{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ads .ads2{
+        width: 100%;
+        text-align: center;
+    }
+    .ads .ads3{
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+    .ads .ads4{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+   
+}
+footer p span{
+    text-decoration: underline;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.footer-content ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
